@@ -1,0 +1,40 @@
+.location-box {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.search-box {
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  flex-grow: 1;
+}
+
+.location-options {
+  margin-top: 10px;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  width: 300px;
+  position: relative;
+  bottom: 0;
+}
+
+.location-item {
+  cursor: pointer;
+}
+
+.location-item:hover {
+  background-color: #e9ecef;
+  border-radius: 5px;
+}
+
+.popular-locations .location-item {
+  margin-bottom: 10px;
+}

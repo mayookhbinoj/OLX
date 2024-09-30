@@ -1,0 +1,176 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f7f7f7;
+}
+
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.min-vh-100 {
+  min-height: 100vh;
+}
+
+.bg-light {
+
+}
+
+
+.card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  width: 100%;
+  max-width: 400px;
+  height: 600px;
+  position: relative;
+}
+
+
+.position-absolute {
+  position: absolute;
+}
+
+.card p {
+  color: #aaa;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.card p:hover {
+  color: #555;
+}
+
+
+.text-center {
+  text-align: center;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+.card img {
+  width: 120px;
+  height: auto;
+  object-fit: contain;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  font-weight: 600;
+  color: #333;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.btn-block {
+  width: 100%;
+}
+
+
+.mt-3 {
+  margin-top: 1.5rem;
+}
+
+.card a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+
+.card p {
+  font-size: 18px;
+  color: #ff0000;
+  cursor: pointer;
+}
+
+.card p:hover {
+  color: #ff6347;
+}
+
+.card img {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 576px) {
+  .card {
+    padding: 1.5rem;
+  }
+
+  .form-control {
+    font-size: 14px;
+  }
+
+  .btn {
+    font-size: 14px;
+  }
+
+  .card img {
+    width: 100px;
+  }
+}
+.invalid-feedback {
+  color: red;
+  font-size: 14px;
+  font-weight: bold;
+}

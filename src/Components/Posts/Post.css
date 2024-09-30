@@ -1,0 +1,46 @@
+.moreView {
+  padding: 10px;
+}
+
+.quick-menu-cards {
+  flex: 1 0 21%; 
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(183, 130, 130, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.quick-menu-cards:hover {
+  transform: translateY(-5px);
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.gap-2 {
+  gap: 20px; /* Add spacing between the cards */
+}
+
+.font-weight-bold {
+  font-weight: bold;
+}
+
+.mt-3 {
+  margin-top: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.text-primary {
+  color: #007bff;
+}
+
+.bg-light {
+  background-color: #f8f9fa;
+}
